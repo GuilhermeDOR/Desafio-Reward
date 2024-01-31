@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 35px 50px;
+    width: 100vw;
+   
+}
+
+.header-link {
+    color: #17233D;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 28px;
+    padding: 3px 3px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header-link:hover {
+    color: #616264;
+}
+
+.header-button {
+    background-color: rgb(136, 199, 74);
+    padding: 12px 25px 12px;
+    border:none;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: rgb(130, 187, 74)
+}
+
+main {
+    display: inline-block;
+    width: 100%;
+    padding-left: 150px;
+
+}
+
+main img { 
+    width: 535px;
+    margin-top: 40px;
+}
+
+section {
+    display: inline-block;
+    width: 500px;
+    margin-left: 100px;
+
+
+}
+
+h1  {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    width: 100%;
+
+}
+
+.section-p {
+    color: #4b505a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 500px;
+    margin: 20px 0 30px;
+}
+
+.learn-link {
+    color: rgb(132, 173, 90);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    background: none;
+    border: none;
+
+}
+
+@media screen and (max-width: 450px){
+
+    header {
+        display: flex;
+        justify-content: end;
+        padding: 15px 15px;
+    }
+
+    .header-link {
+        display: none;
+    }
+
+    .header-button {
+        font-size: 12px;
+        border-radius: 6px;
+        width: 100px;
+        height: auto;
+        padding: 10px 12px 10px;
+    }
+
+    main {
+        padding: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    main img {
+        width: 95%;
+    }
+
+    section {
+        margin: 40px 0 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        color: #161A49;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        
+
+    }
+
+    .section-p {
+        text-align: center;
+        width: 100%;
+        padding: 0 10px;
+        
+    }
+
+    .learn-link {
+        font-size: 28px;
+    }
+
+}
+
